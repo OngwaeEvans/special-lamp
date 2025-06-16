@@ -11,4 +11,4 @@ def surface_function(y, x):
 volume, error = integrate.dblquad(surface_function, 0, 1, lambda x: 0, lambda x: 1)
 
 # Output the result
-print("Volume under surface z = x² + y² over 0 ? x, y ? 1:", volume)
+print("Volume under surface z = xÂ² + yÂ² over 0 ? x, y ? 1:", volume)
