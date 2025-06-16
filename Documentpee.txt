@@ -1,0 +1,24 @@
+Question (d): Compiled vs Interpreted Languages
+Compiled vs Interpreted Programming Languages
+Feature	Compiled Languages	Interpreted Languages
+Definition	Translated into machine code before execution by a compiler	Translated line-by-line during execution by an interpreter
+Execution Speed	Generally faster since it's precompiled	Generally slower due to real-time interpretation
+Error Detection	Errors found at compile-time	Errors found at runtime
+Portability	Platform-dependent (compiled for a specific OS/CPU)	More portable (as long as the interpreter exists for the system)
+Examples	C, C++, Rust, Go, Swift	Python, JavaScript, PHP, Ruby
+Use Case	Performance-critical systems (games, OS, embedded)	Rapid development, scripting, automation, AI, web apps
+
+Where Does Python Fit In?
+Python is classified as an interpreted language. This means:
+
+Python code is executed line by line using an interpreter (like python3).
+
+It is not compiled into machine code before running.
+
+This makes it:
+
+? Easier to debug
+
+? More flexible for quick development
+
+?? Slightly slower in performance compared to compiled languages
